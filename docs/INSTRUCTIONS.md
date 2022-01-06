@@ -4,7 +4,14 @@
 Deze leertaak hoort bij sprint The Startup. Dit is een autonomous leertaak die je individueel uitvoert voor FDND.
 
 ## Briefing
-...
+FDND.nl maakt gebruik van verschillende microsites zoals contact, studieinformatie, programma, SKC, partners en leertaken.
+
+Microsites zijn kleine websites ter ondersteuning van een campagne, informatie over een product, dienst of voor een ander specifiek doel.
+
+Voor de studiekeuzecheck van FDND is een aparte microsite gerealiseerd; skc.fdnd.nl.
+De microsite bevat nog niet alle gewenste content en daarnaast is de presentatie van de content niet erg overzichtelijk. 
+
+Herontwerp en bouw de SKC microsite met HTML, CSS en JavaScript. 
 
 ## Doel van deze opdracht
 Je leert hoe je een presentatie website voor een startende onderneming (her)ontwerpt en maakt.
