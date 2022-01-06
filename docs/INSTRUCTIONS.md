@@ -9,7 +9,7 @@ FDND.nl maakt gebruik van verschillende microsites zoals contact, studieinformat
 Microsites zijn kleine websites ter ondersteuning van een campagne, informatie over een product, dienst of voor een ander specifiek doel.
 
 Voor de studiekeuzecheck van FDND is een aparte microsite gerealiseerd; skc.fdnd.nl.
-De microsite bevat nog niet alle gewenste content en daarnaast is de presentatie van de content niet erg overzichtelijk. 
+De microsite bevat nog niet alle gewenste content en daarnaast voldoet de website nog niet aan de huisstijl. 
 
 Herontwerp en bouw de SKC microsite met HTML, CSS en JavaScript. 
 
