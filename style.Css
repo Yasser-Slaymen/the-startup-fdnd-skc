@@ -26,7 +26,34 @@ body{
     background:var(--blueberry);
 }
 
-body::before{
-    background: url(/images/download.svg);
+header{
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin-left: 1em;
+}
+
+.logo{
+    width: 170px;
+    height: 130px;
+}
+body>header>p{
+    font-size:rem;
+    border-left: 1px solid var(--white);
+    padding-left: 1em;
+}
+
+.fdnd-logo{
+   position:absolute ;
+    padding: 0.5rem 1.2rem;
+    border: 1px solid var(--turquoise);
+    top: 0;
+    left: 0;
+
+    border-radius: var(--rounded);
+    box-shadow: calc(-1* var(--shadow)) var(--shadow) 0 0 var(--turquoise);
+    color: var(--turquoise);
+    font-size: 2rem;
+    text-decoration: lowercase;
 
 }
