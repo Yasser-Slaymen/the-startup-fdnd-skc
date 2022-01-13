@@ -1,4 +1,5 @@
 
+
 :root {
     --white: #ffffff;
     --blueberry: #050542;
@@ -10,4 +11,22 @@
     --rounded: .5rem;
     --pilled: 2rem;
     --shadow: .3rem;
+ }
+
+ *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size:"Open Sans", sans-serif;
+    font-size: 1.2rem;
+    color: var(--white);
+    background:var(--blueberry);
+}
+
+body::before{
+    background: url(/images/download.svg);
+
 }
