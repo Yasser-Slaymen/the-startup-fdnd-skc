@@ -31,6 +31,7 @@ header{
     justify-content:flex-start;
     align-items: center;
     margin-left: 1em;
+    padding-bottom: 2em;
 }
 
 .logo{
@@ -43,17 +44,53 @@ body>header>p{
     padding-left: 1em;
 }
 
-.fdnd-logo{
-   position:absolute ;
+/*.fdnd-logo{
+    position:relative;
+    width: 109px;
+    height: 70px;
     padding: 0.5rem 1.2rem;
     border: 1px solid var(--turquoise);
-    top: 0;
+    top:2.2em;
     left: 0;
-
+    background-color: var(--blueberry);
     border-radius: var(--rounded);
     box-shadow: calc(-1* var(--shadow)) var(--shadow) 0 0 var(--turquoise);
     color: var(--turquoise);
     font-size: 2rem;
+    padding: ;
+    font-family: sans-serif;
+    text-align: center;
     text-decoration: lowercase;
+   
+
+}
+*/
+
+ .fdnd-logo {
+    position: absolute;
+    padding: 0 1rem calc(1rem + var(--shadow)) var(--shadow);
+    top: 0;
+    left: 0;
+    width: fit-content;
+    background: var(--blueberry);
+    text-decoration: none;
+    border-bottom-right-radius: var(--pilled);
+    box-sizing: content-box;
+  }
+  
+  .fdnd-logo span {
+    display: block;
+    padding: 0.5rem 1.2rem;
+    border: 1px solid var(--turquoise);
+    border-radius: var(--rounded);
+    box-shadow: calc(-1 * var(--shadow)) var(--shadow) 0 0 var(--turquoise);
+    color: var(--turquoise);
+    font-size: 2.5rem;
+    text-transform: lowercase;
+  }
+.home>img{
+    width: 1280px;
+    height: 1024px;
+    margin-left: 20px;
 
 }
