@@ -106,21 +106,38 @@ body>header>section>p{
     text-decoration: none;
 }
 /* nav */
-nav>ul>li{
+.menu>ul>li{
     padding: 0.5em 2em;
     background-color:var(--lavender);
     border-radius:var(--pilled);
-    font-size: 1.5rem;
+    font-size: 1.5rem; 
+    transition: .3s transform;
+    transform-origin: bottom left;
+
 }
 nav>ul>li>a{
     text-decoration: none;
-
+    color:var(--blueberry);
 }
 
-nav>ul{
+.menu>ul{
     display: flex;
     justify-content:space-between;
-    padding: 1em;
+    padding:1.5em;
     align-items: center;
-    text-decoration: none;
+    list-style:none ;
 }
+.menu>ul>li:nth-child(2){
+    background-color: var(--turquoise);
+}
+.menu>ul>li:nth-child(4){
+    background-color: var(--turquoise);
+}
+
+.menu>ul>li:hover{
+    background-color: var(--call-to-action);
+    transform:rotate(9deg);
+    cursor: pointer;
+}
+
+
