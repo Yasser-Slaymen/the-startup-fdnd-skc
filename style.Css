@@ -1,18 +1,28 @@
+@font-face {
+    font-family: "Open-sans";
+    font-weight: normal;
+    src: url('/assets/fonts/OpenSans-Regular.ttf');
+  }
 
+  @font-face {
+    font-family: "Open-sans";
+    font-weight: bold;
+    src: url('/assets/fonts/OpenSans-Bold.ttf');
+  }
 
-:root {
+  :root {
     --white: #ffffff;
     --blueberry: #050542;
     --turquoise: #66e5bf;
     --lavender: #a675f5;
+    --lavender-dark: hsl(263, 86%, 60%);
     --attention: #050542;
     --attention-background: #05054233;
-    --call-to-action: #FFFC86;
-    --rounded: .5rem;
+    --call-to-action: #fffc86;
+    --rounded: 0.5rem;
     --pilled: 2rem;
-    --shadow: .3rem;
- }
-
+    --shadow: 0.3rem;
+  }
  *{
     box-sizing: border-box;
     margin: 0;
@@ -23,54 +33,37 @@ body{
     font-size:"Open Sans", sans-serif;
     font-size: 1.2rem;
     color: var(--white);
-    background:var(--blueberry);
+    background-color:var(--blueberry);
 }
+/* heder */
+/* logo HvA */
 
-header{
+body>header>section{
     display:flex;
     justify-content:flex-start;
     align-items: center;
-    margin-left: 1em;
-    padding-bottom: 2em;
+    margin-left: 1em; 
 }
 
-.logo{
-    width: 170px;
-    height: 130px;
-}
-body>header>p{
+.logo {
+    width: 200px;
+    height: 150px;
+    margin: 0 1.8em;
+  }
+
+body>header>section>p{
     font-size:rem;
     border-left: 1px solid var(--white);
     padding-left: 1em;
 }
 
-/*.fdnd-logo{
-    position:relative;
-    width: 109px;
-    height: 70px;
-    padding: 0.5rem 1.2rem;
-    border: 1px solid var(--turquoise);
-    top:2.2em;
-    left: 0;
-    background-color: var(--blueberry);
-    border-radius: var(--rounded);
-    box-shadow: calc(-1* var(--shadow)) var(--shadow) 0 0 var(--turquoise);
-    color: var(--turquoise);
-    font-size: 2rem;
-    padding: ;
-    font-family: sans-serif;
-    text-align: center;
-    text-decoration: lowercase;
-   
-
-}
-*/
+/* logo FDND*/
 
  .fdnd-logo {
-    position: absolute;
+    position:absolute;
     padding: 0 1rem calc(1rem + var(--shadow)) var(--shadow);
     top: 0;
-    left: 0;
+    left:0;
     width: fit-content;
     background: var(--blueberry);
     text-decoration: none;
@@ -88,9 +81,46 @@ body>header>p{
     font-size: 2.5rem;
     text-transform: lowercase;
   }
-.home>img{
-    width: 1280px;
-    height: 1024px;
-    margin-left: 20px;
+  /* hero pictur */
+.home{
+    position: relative;
+    height:70vh;
+    margin: 1rem;
+    background-image: url(/images/kickoff-3.JPG);
+    background-size: cover;
+    background-position: center 10%;
+    border-radius: var(--pilled);
+}
 
+.home>h1>span{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 1rem 2rem 0 2rem;
+    background: var(--blueberry);
+    border-top-left-radius: var(--pilled);
+    color: var(--lavender);
+    font-size: calc(1.5rem + 1.5vw);
+    line-height: calc(1.5rem + 1.5vw);
+    text-decoration: none;
+}
+/* nav */
+nav>ul>li{
+    padding: 0.5em 2em;
+    background-color:var(--lavender);
+    border-radius:var(--pilled);
+    font-size: 1.5rem;
+}
+nav>ul>li>a{
+    text-decoration: none;
+
+}
+
+nav>ul{
+    display: flex;
+    justify-content:space-between;
+    padding: 1em;
+    align-items: center;
+    text-decoration: none;
 }
