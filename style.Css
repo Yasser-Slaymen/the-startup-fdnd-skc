@@ -145,7 +145,7 @@ nav>ul>li>a{
 /* main */
 
 /* over fdnd */
-#over-fdnd{ 
+#over-fdnd, #vragenlijst, #code-challenges, #intake-gesprek{ 
     width:fit-content;
     margin:1.5em;
     padding: 1em;
@@ -154,7 +154,7 @@ nav>ul>li>a{
     border-radius: var(--pilled);
     
 }
-.over-img{
+.main{
  width:40vw;
  height: 50vh;
  margin:1em 0 1em 23em ;
@@ -162,7 +162,7 @@ nav>ul>li>a{
  border-radius: var(--pilled);
 }
 
-#over-fdnd>h2{
+h2{
   margin: -2rem 0 2rem -2rem;
   padding: 0 1rem 1rem 2rem;
   position: relative;
@@ -195,9 +195,37 @@ nav>ul>li>a{
  font-family: "Open-sans",sans-serif;
  font-weight: normal;
  line-height: 1.75;
- margin-top:0;
 
 }
 /* end over fdnd */
+/* vragenlijst */
+
+#vragenlijst>p{
+    font-size: 1.5rem;
+    font-family: "Open-sans",sans-serif;
+    font-weight: normal;
+    line-height: 1.75;
+    margin:1.5em;
+   }
+/* code challenges */
+#code-challenges>p{
+    font-size: 1.5rem;
+    font-family: "Open-sans",sans-serif;
+    font-weight: normal;
+    line-height: 1.75;
+    margin:1.5em;
+   }
+
+   /* intake gesprek */
+   #intake-gesprek>p{
+    font-size: 1.5rem;
+    font-family: "Open-sans",sans-serif;
+    font-weight: normal;
+    line-height: 1.75;
+    margin:1.5em;
+   }
+
+
+
 
 
