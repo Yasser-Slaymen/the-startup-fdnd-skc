@@ -104,6 +104,7 @@ body>header>section>p{
     font-size: calc(1.5rem + 1.5vw);
     line-height: calc(1.5rem + 1.5vw);
     text-decoration: none;
+    font-family:sans-serif;
 }
 /* nav */
 .menu>ul>li{
@@ -138,6 +139,17 @@ nav>ul>li>a{
     background-color: var(--call-to-action);
     transform:rotate(9deg);
     cursor: pointer;
+}
+/* main */
+#over-fdnd{
+   
+    height: 70vh;
+    width:fit-content;
+    margin:1.5em;
+    background-color: var(--turquoise);
+    color: var(--blueberry);
+    border-radius: var(--pilled);
+    
 }
 
 
