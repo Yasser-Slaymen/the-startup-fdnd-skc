@@ -35,6 +35,9 @@ body{
     color: var(--white);
     background-color:var(--blueberry);
 }
+html{
+    scroll-behavior: smooth;
+}
 /* heder */
 /* logo HvA */
 
@@ -52,7 +55,6 @@ body>header>section{
   }
 
 body>header>section>p{
-    font-size:rem;
     border-left: 1px solid var(--white);
     padding-left: 1em;
 }
@@ -62,7 +64,7 @@ body>header>section>p{
  .fdnd-logo {
     position:absolute;
     padding: 0 1rem calc(1rem + var(--shadow)) var(--shadow);
-    top: 0;
+    top:0;
     left:0;
     width: fit-content;
     background: var(--blueberry);
@@ -84,7 +86,7 @@ body>header>section>p{
   /* hero pictur */
 .home{
     position: relative;
-    height:70vh;
+    height:78vh;
     margin: 1rem;
     background-image: url(/images/kickoff-3.JPG);
     background-size: cover;
@@ -141,15 +143,61 @@ nav>ul>li>a{
     cursor: pointer;
 }
 /* main */
-#over-fdnd{
-   
-    height: 70vh;
+
+/* over fdnd */
+#over-fdnd{ 
     width:fit-content;
     margin:1.5em;
+    padding: 1em;
     background-color: var(--turquoise);
     color: var(--blueberry);
     border-radius: var(--pilled);
     
 }
+.over-img{
+ width:40vw;
+ height: 50vh;
+ margin:1em 0 1em 23em ;
+ background-size: cover;
+ border-radius: var(--pilled);
+}
+
+#over-fdnd>h2{
+  margin: -2rem 0 2rem -2rem;
+  padding: 0 1rem 1rem 2rem;
+  position: relative;
+  width: fit-content;
+  font: inherit;
+  font-size: calc(1.5rem + 1.5vw);
+  line-height: calc(1.5rem + 1.5vw);
+  color: var(--white);
+  background: var(--blueberry);
+  border-bottom-right-radius: var(--rounded);
+  z-index: 2;
+}
+
+#over-fdnd>p{
+ font-size: 1.5rem;
+ font-family: "Open-sans",sans-serif;
+ font-weight: normal;
+ line-height: 1.75;
+ margin:1.5em;
+}
+#over-fdnd>ul{
+ font-size: 1.5rem;
+ font-family: "Open-sans",sans-serif;
+ font-weight: normal;
+ line-height: 1.75;
+ margin:1.5em;
+}
+.icon{
+ font-size: 1.5rem;
+ font-family: "Open-sans",sans-serif;
+ font-weight: normal;
+ line-height: 1.75;
+ margin-top:0;
+
+}
+/* end over fdnd */
 
 
