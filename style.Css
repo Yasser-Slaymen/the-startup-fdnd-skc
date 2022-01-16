@@ -95,7 +95,7 @@ body>header>section>p{
 }
 
 .home>h1>span{
-    display: block;
+    /* display: block; */
     position: absolute;
     bottom: 0;
     right: 0;
@@ -167,7 +167,8 @@ h2{
   padding: 0 1rem 1rem 2rem;
   position: relative;
   width: fit-content;
-  font: inherit;
+  font-family: "Open sans",sans-serif;
+  font-weight: normal;
   font-size: calc(1.5rem + 1.5vw);
   line-height: calc(1.5rem + 1.5vw);
   color: var(--white);
@@ -224,7 +225,63 @@ h2{
     line-height: 1.75;
     margin:1.5em;
    }
+/* end main */
+/* footer */
+footer{
+    margin: 0 auto;
+    padding: 1rem;
+    width:fit-content;
+}
+footer nav{
+    padding: 2rem;
+    border: 1px solid var(--lavender);
+    color:var(--lavender);
+    border-radius: var(--pilled);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
 
+footer>nav>p,ul{
+    font-size: 1.5rem;
+    font-family: "Open-sans",sans-serif;
+    font-weight: normal;
+    line-height: 1.75;
+    margin:1.5em;
+   }
+footer>nav>ul>li>a{
+    color: var(--lavender);
+    text-decoration-line: underline;
+}
+footer a:hover{
+    color:red;
+}
+
+  footer h2 {
+    margin: calc(-2rem - 1px) calc(-2rem - 1px) 2rem 0;
+    padding: 0 1rem 0.5rem 1rem;
+    position:relative;
+    width: fit-content;
+    font-size: calc(1.5rem + 1.5vw);
+    line-height: calc(1.5rem + 1.5vw);
+    color: var(--lavender);
+    background: var(--blueberry);
+    border-left: 1px solid var(--lavender);
+    border-bottom: 1px solid var(--lavender);
+    border-bottom-left-radius: var(--rounded);
+    z-index: 2;
+  }
+
+  footer ul{
+      margin-left:5em;
+      width:95%;
+      list-style:none;
+      display: flex;
+      flex-direction:row;
+      justify-content: space-between; 
+
+  }
 
 
 
