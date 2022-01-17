@@ -142,6 +142,7 @@ nav>ul>li>a{
     transform:rotate(9deg);
     cursor: pointer;
 }
+
 /* main */
 
 /* over fdnd */
@@ -238,7 +239,6 @@ h2{
     line-height: 1.75;
     margin:1.5em;
    }
-
    /* intake gesprek */
    #intake-gesprek>p{
     font-size: 1.5rem;
@@ -262,7 +262,6 @@ footer nav{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    
 }
 
 footer>nav>p,ul{
@@ -297,13 +296,14 @@ footer a:hover{
 
   footer ul{
       margin-left:5em;
-      width:95%;
+      width:94%;
       list-style:none;
       display: flex;
       flex-direction:row;
       justify-content: space-between; 
 
   }
+
 
 
 
