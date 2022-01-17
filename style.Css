@@ -87,7 +87,7 @@ body>header>section>p{
 .home{
     position: relative;
     height:78vh;
-    margin: 1rem;
+    margin:3%;
     background-image: url(/images/kickoff-3.JPG);
     background-size: cover;
     background-position: center 10%;
@@ -147,13 +147,35 @@ nav>ul>li>a{
 /* over fdnd */
 #over-fdnd, #vragenlijst, #code-challenges, #intake-gesprek{ 
     width:fit-content;
-    margin:1.5em;
+    margin:3%;
     padding: 1em;
     background-color: var(--turquoise);
     color: var(--blueberry);
     border-radius: var(--pilled);
     
 }
+/* imgs */
+.img-1{
+    position: relative;
+    left: -3.5em;
+    width:50vw;
+    height: 80vh;
+    padding:3em 7em 3em 3em ;
+    border-radius: var(--pilled);
+    background-color: var(--blueberry);
+   }
+   .img-2, .img-3,.img-4{
+    position: relative;
+    bottom:-2.5em;
+    right:-30.5em;
+    width:51vw;
+    height: 80vh;
+    padding:3em 2em 3em 3em ;
+    border-radius: var(--pilled);
+    background-color: var(--blueberry);
+
+   }
+
 .main{
  width:40vw;
  height: 50vh;
@@ -161,7 +183,7 @@ nav>ul>li>a{
  background-size: cover;
  border-radius: var(--pilled);
 }
-
+/* end imgs */
 h2{
   margin: -2rem 0 2rem -2rem;
   padding: 0 1rem 1rem 2rem;
