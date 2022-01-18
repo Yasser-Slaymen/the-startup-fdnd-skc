@@ -160,10 +160,10 @@ nav>ul>li>a{
 /* imgs */
 .img-1{
     position: relative;
-    left: -3.5em;
-    width:50vw;
+    left: -2.5em;
+    width:56vw;
     height: 80vh;
-    padding:3em 7em 3em 3em ;
+    padding:2em;
     border-radius: var(--pilled);
     background-color: var(--blueberry);
    }
@@ -306,8 +306,14 @@ footer>nav>ul>li{
       list-style:none;
       display: flex;
      justify-content: space-between;
-     
 
+  }
+  .quot{
+      display: grid;
+      place-items: center;
+      margin: 3%;
+      font-size: 1.5em;
+      margin-bottom: 1em;
 
   }
 
@@ -357,8 +363,36 @@ footer>nav>ul>li{
         padding:0;
     }
     footer>nav>ul>li>a{
-        color: #ffffff;
+        color: var(--white);
     }
+
+      
+  }
+  /* media qurye mobile */
+  @media (max-width:40em) {
+     
+      .img-1,.img-2,.img-3,.img-4{
+          display:none ;
+      }
+      body>header>section{
+          margin-left: 0;
+      }
+      .home{
+          height: 36vh;
+      }
+      .menu ul{
+          display:flex;
+          flex-wrap: wrap;
+          justify-content: center;
+
+      }
+      .menu>ul>li{
+          margin: .5em;
+          padding:.5em;
+          font-size: 1em;
+          text-align: center;
+      }
+     
 
       
   }
