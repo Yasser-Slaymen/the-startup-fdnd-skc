@@ -170,10 +170,10 @@ nav>ul>li>a{
    .img-2, .img-3,.img-4{
     position: relative;
     bottom:-2.5em;
-    right:-30.5em;
+    right:-48%;
     width:51vw;
     height: 80vh;
-    padding:3em 2em 3em 3em ;
+    padding:2em;
     border-radius: var(--pilled);
     background-color: var(--blueberry);
 
@@ -280,6 +280,9 @@ footer>nav>ul>li>a{
 footer a:hover{
     color:red;
 }
+footer>nav>ul>li{
+    padding:.5em;
+}
 
   footer h2 {
     margin: calc(-2rem - 1px) calc(-2rem - 1px) 2rem 0;
@@ -298,16 +301,18 @@ footer a:hover{
 
   footer ul{
       margin-left:5em;
-      width:92%;
+      padding-left: 2em;
+      width:100%;
       list-style:none;
       display: flex;
-      flex-direction:row;
-      justify-content: space-between; 
+     justify-content: space-between;
+     
+
 
   }
 
   /* Media quyer's 1000px */
-  @media (max-width:1000px) {
+  @media (max-width:1024px) {
       .home{
           height: 48vh;
       }
@@ -316,7 +321,6 @@ footer a:hover{
         padding: 1.5em 2em;
         margin-top: 0;
         font-size: 1rem; 
-        background-color: darkred;
     }
     .menu ul{
         padding: 0;
@@ -328,14 +332,32 @@ footer a:hover{
     }
     .img-2,.img-3,.img-4{
         position: relative;
-        right: -11.5em;
+        right: -46%;
         padding: 1em;
-        width: 66vw;
+        width: 52vw;
         height: 58vh;
     }
     
     footer{
         margin: 3%;
+        width:fit-content;
+        
+    }
+    footer ul{
+        display: flex;
+        flex-direction: column;
+        padding-left: 7%;
+        
+    }
+    footer>nav> p{
+        margin:0;
+        margin-left: 2%;
+    }
+    footer>nav>ul>li{
+        padding:0;
+    }
+    footer>nav>ul>li>a{
+        color: #ffffff;
     }
 
       
