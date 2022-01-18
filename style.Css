@@ -306,6 +306,41 @@ footer a:hover{
 
   }
 
+  /* Media quyer's 1000px */
+  @media (max-width:1000px) {
+      .home{
+          height: 48vh;
+      }
+
+      .menu>ul>li{
+        padding: 1.5em 2em;
+        margin-top: 0;
+        font-size: 1rem; 
+        background-color: darkred;
+    }
+    .menu ul{
+        padding: 0;
+    }
+    .img-1{
+        width: 69vw;
+        height: 73vh;
+        padding: 1.5em 2em 1.5em 3em
+    }
+    .img-2,.img-3,.img-4{
+        position: relative;
+        right: -11.5em;
+        padding: 1em;
+        width: 66vw;
+        height: 58vh;
+    }
+    
+    footer{
+        margin: 3%;
+    }
+
+      
+  }
+
 
 
 
