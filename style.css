@@ -9,6 +9,9 @@
     font-weight: bold;
     src: url('/assets/fonts/OpenSans-Bold.ttf');
   }
+  a{
+      color: var(--blueberry);
+  }
 
   :root {
     --white: #ffffff;
@@ -30,7 +33,7 @@
 }
 
 body{
-    font-size:"Open Sans", sans-serif;
+    font-size:"Open-sans", sans-serif;
     font-size: 1.2rem;
     color: var(--white);
     background-color:var(--blueberry);
@@ -52,11 +55,13 @@ body>header>section{
     width: 200px;
     height: 150px;
     margin: 0 1.8em;
+    
   }
 
-body>header>section>p{
+.fdnd{
     border-left: 1px solid var(--white);
     padding-left: 1em;
+    font-family: "Open-sans",sans-serif;
 }
 
 /* logo FDND*/
@@ -106,7 +111,8 @@ body>header>section>p{
     font-size: calc(1.5rem + 1.5vw);
     line-height: calc(1.5rem + 1.5vw);
     text-decoration: none;
-    font-family:sans-serif;
+    font-family:"Open-sans",sans-serif;
+    font-weight:normal;
 }
 /* nav */
 .menu>ul>li{
@@ -139,7 +145,7 @@ nav>ul>li>a{
 }
 
 .menu>ul>li:hover{
-    background-color: var(--call-to-action);
+    background-color:var(--white);
     transform:rotate(9deg);
     cursor: pointer;
 }
@@ -147,7 +153,7 @@ nav>ul>li>a{
 /* main */
 
 /* over fdnd */
-#over-fdnd, #vragenlijst, #code-challenges, #intake-gesprek{ 
+#over-fdnd, #vragenlijst, #code-challenges, #intake-gesprek, #studenten-werk{ 
     width:fit-content;
     margin:3%;
     margin-top: 7%;
@@ -195,10 +201,10 @@ h2{
   font-family: "Open sans",sans-serif;
   font-weight: normal;
   font-size: calc(1.5rem + 1.5vw);
-  line-height: calc(1.5rem + 1.5vw);
+  line-height: calc(1.5rem + 3.5vw);
   color: var(--white);
   background: var(--blueberry);
-  border-bottom-right-radius: var(--rounded);
+  border-bottom-right-radius: 1.5rem;
   z-index: 2;
 }
 
@@ -278,7 +284,7 @@ footer>nav>ul>li>a{
     text-decoration-line: underline;
 }
 footer a:hover{
-    color:red;
+    color:var(--turquoise);
 }
 footer>nav>ul>li{
     padding:.5em;
