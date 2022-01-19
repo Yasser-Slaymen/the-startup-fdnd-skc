@@ -89,7 +89,7 @@ body>header>section>p{
     height:78vh;
     margin:3%;
     margin-top:0;
-    background-image: url("images/kickoff-3.JPG");
+    background-image: url("../images/kickoff-3.JPG");
     background-size: cover;
     background-position: center 10%;
     border-radius: var(--pilled);
