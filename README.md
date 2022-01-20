@@ -1,7 +1,8 @@
 
 
 # FDND Studiekeuze check SKC
-<!-- -->
+<!-- ![Screenshot (190)](https://user-images.githubusercontent.com/90189815/150415506-1904d4f2-6b17-4985-972a-96e5028de6ae.png)
+-->
 
 ## Inhoudsopgave
 
