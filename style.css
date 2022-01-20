@@ -255,6 +255,31 @@ h2{
     line-height: 1.75;
     margin:1.5em;
    }
+   /* studenten-werk */
+   #studenten-werk>p{
+    font-size: 1.5rem;
+    font-family: "Open-sans",sans-serif;
+    font-weight: normal;
+    line-height: 1.75;
+    margin:1.5em;
+   }
+   article{
+       position: relative;
+       width: 91%;
+       margin:auto ;
+       display: flex;
+       flex-wrap:wrap;
+       justify-content:center;
+       gap:2em;
+       padding:1em;
+       border-radius: var(--rounded);
+       background-color: var(--blueberry);
+   }
+
+   .stu-img{
+       width:17vw;
+
+   }
 /* end main */
 /* footer */
 footer{
