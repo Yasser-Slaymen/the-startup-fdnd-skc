@@ -1,9 +1,10 @@
 
 
 # FDND Studiekeuze check SKC
-🌐 Live Versie
- ![Screenshot (190)](https://user-images.githubusercontent.com/90189815/150414548-04e76b6f-0f6b-4891-af8e-e117e3237d2f.png) 
 
+  📸![Screenshot (190)](https://user-images.githubusercontent.com/90189815/150414548-04e76b6f-0f6b-4891-af8e-e117e3237d2f.png) 
+  
+🌐 Live Versie (https://yasser-slaymen.github.io/the-startup-fdnd-skc/)
 
 ## Inhoudsopgave
 
@@ -19,7 +20,7 @@ Aanleiding FDND is een nieuwe opleiding. Alle microsites worden door fdnd zelf g
 ## Beschrijving
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je !
 er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸[Screenshot (190)](https://user-images.githubusercontent.com/90189815/150414548-04e76b6f-0f6b-4891-af8e-e117e3237d2f.png) -->
+<!-- -->
 <!--  🌐 )
 -->
 
