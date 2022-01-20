@@ -2,7 +2,8 @@
 
 # FDND Studiekeuze check SKC
 
-  📸![Screenshot (190)](https://user-images.githubusercontent.com/90189815/150414548-04e76b6f-0f6b-4891-af8e-e117e3237d2f.png) 
+  📸!
+  [Screenshot (190)](https://user-images.githubusercontent.com/90189815/150414548-04e76b6f-0f6b-4891-af8e-e117e3237d2f.png) 
   
 🌐 Live Versie (https://yasser-slaymen.github.io/the-startup-fdnd-skc/)
 
@@ -25,6 +26,24 @@ er mee kan. -->
 -->
 
 ## Kenmerken
+🐸Kenmerken
+Tools gebruikt:
+
+💻 Visual Studio Code
+
+✍️ Illustrator
+
+🖌pexels.com
+
+✍️ Pen & Papier
+
+Code Skills:
+
+💀 HTML5
+
+🧍 CSS3
+
+⚽ JavaScript
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
 
 ## Installatie
