@@ -31,7 +31,6 @@ Tools gebruikt:
 
 💻 Visual Studio Code
 
-✍️ Illustrator
 
 🖌pexels.com
 
