@@ -2,8 +2,8 @@
 
 # FDND Studiekeuze check SKC
 
-  📸!
-  [Screenshot (190)](https://user-images.githubusercontent.com/90189815/150414548-04e76b6f-0f6b-4891-af8e-e117e3237d2f.png) 
+  📸
+  ![Screenshot (190)](https://user-images.githubusercontent.com/90189815/150414548-04e76b6f-0f6b-4891-af8e-e117e3237d2f.png) 
   
 🌐 Live Versie (https://yasser-slaymen.github.io/the-startup-fdnd-skc/)
 
