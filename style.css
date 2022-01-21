@@ -365,7 +365,7 @@ footer>nav>ul>li{
   }
   .quot{
       display: grid;
-      place-items: center;
+      place-items: left;
       margin: 3%;
       font-size: 1.5em;
       margin-bottom: 1em;
