@@ -9,7 +9,7 @@ window.addEventListener("focus",function(){
     console.log("focus")
     dark.classList.remove("dark");
 });
-// window.addEventListener("blur",function(){
-//     dark.classList.add("dark");
+window.addEventListener("blur",function(){
+     dark.classList.add("dark");
 
-// })
+ })
