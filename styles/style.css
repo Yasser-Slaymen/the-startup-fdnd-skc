@@ -368,6 +368,7 @@ footer{
     margin: 0 auto;
     padding:1rem;
     width:fit-content;
+    max-width: 1440px;
 }
 footer nav{
     padding: 2rem;
