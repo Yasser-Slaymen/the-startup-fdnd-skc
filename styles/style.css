@@ -100,6 +100,31 @@ body>header>section{
     font-size: 2.5rem;
     text-transform: lowercase;
   }
+  .fdnd-logo::before{
+    content: "";
+    position: absolute;
+    top:0;
+    right: calc(-1 * var(--rounded));
+    box-shadow: 0 calc(-1 * var(--rounded)) 0 0 var(--blueberry);
+    background-color: transparent;
+    width: var(--rounded);
+    height: calc(2 * var(--rounded));
+    border-top-left-radius: var(--rounded);
+
+  }
+
+.fdnd-logo::after{
+  content: "";
+  position: absolute;
+  bottom: -15.8px;
+  left: calc(0 * var(--rounded));
+  box-shadow: 0 calc(-1 * var(--rounded)) 0 0 var(--blueberry);
+  background-color: transparent;
+  width: var(--rounded);
+  height: calc(2 * var(--rounded));
+  border-top-left-radius: var(--rounded);
+
+}
   /* hero pictur-hero img */
 .home{
     position: relative;
@@ -483,7 +508,7 @@ footer>nav>ul>li{
         color: var(--white);
     }
     footer h2::before{
-        top: 42px;
+        top: 47     px;
     }
 
       
