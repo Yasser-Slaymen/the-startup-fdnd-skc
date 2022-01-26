@@ -224,6 +224,31 @@ h2{
   z-index: 2;
 }
 
+h2::before{
+  content: "";
+  position: absolute;
+  top: 12px;
+  right: calc(-1 * var(--rounded));
+  box-shadow: 0 calc(-1 * var(--rounded)) 0 0 var(--blueberry);
+  background-color: transparent;
+  width: var(--rounded);
+  height: calc(2 * var(--rounded));
+  border-top-left-radius: var(--rounded);
+}
+h2::after{
+  content: "";
+  position: absolute;
+  bottom: -14.8px;
+  left: calc(1.6 * var(--rounded));
+  box-shadow: 0 calc(-1 * var(--rounded)) 0 0 var(--blueberry);
+  background-color: transparent;
+  width: var(--rounded);
+  height: calc(2 * var(--rounded));
+  border-top-left-radius: var(--rounded);
+  
+}
+
+
 #over-fdnd>p{
  font-size: 1.5rem;
  font-family: "Open-sans",sans-serif;
@@ -360,7 +385,35 @@ footer>nav>ul>li{
     border-left: 1px solid var(--lavender);
     border-bottom: 1px solid var(--lavender);
     border-bottom-left-radius: var(--rounded);
+    border-bottom-right-radius: 0;
     z-index: 2;
+  }
+  
+ footer h2::before{
+    content: "";
+    position: absolute;
+    top: 51px;
+    right: calc(0 * var(--rounded));
+    box-shadow: 0 calc(-1 * var(--rounded)) 0 0 var(--blueberry);
+    background-color:transparent;
+    width: var(--rounded);
+    height: calc(2 * var(--rounded));
+    border-top-right-radius: var(--rounded);
+    border-top-left-radius: 0;
+    border-right: 1px solid var(--lavender);
+  }
+  footer h2::after{
+    content: "";
+    position: absolute;
+    top: -.1px;
+    left: calc(-1.1 * var(--rounded));
+    box-shadow: 0 calc(-1 * var(--rounded)) 0 0 var(--blueberry);
+    background-color:transparent;
+    width: var(--rounded);
+    height: calc(2 * var(--rounded));
+    border-top-right-radius: var(--rounded);
+    border-top-left-radius: 0;
+    border-right: 1px solid var(--lavender);
   }
 
   footer ul{
@@ -429,6 +482,9 @@ footer>nav>ul>li{
     footer>nav>ul>li>a{
         color: var(--white);
     }
+    footer h2::before{
+        top: 42px;
+    }
 
       
   }
@@ -455,6 +511,10 @@ footer>nav>ul>li{
           padding:.5em;
           font-size: 1em;
           text-align: center;
+      }
+
+      footer h2::before{
+          top: 39px;
       }
      
 
