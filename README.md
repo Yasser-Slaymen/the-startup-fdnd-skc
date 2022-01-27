@@ -22,8 +22,9 @@ Aanleiding FDND is een nieuwe opleiding. Alle microsites worden door fdnd zelf g
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je !
 er mee kan. -->
 <!-- -->
-<!--  🌐 )
--->
+ 🌐 ![Screenshot (195)](https://user-images.githubusercontent.com/90189815/151437726-6c3d49a2-c8ef-454e-804e-6e3b45ec5bee.png)
+
+
 
 ## Kenmerken
 🐸Kenmerken
